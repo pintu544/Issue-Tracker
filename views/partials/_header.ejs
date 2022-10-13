@@ -1,0 +1,9 @@
+<!-- shows create project button on project page and create issue button if the project is open -->
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-4" href="/"> 𝒾𝓈𝓈𝓊𝑒 𝓉𝓇𝒶𝒸𝓀𝑒𝓇</a>
+    <button type="button" class="btn btn-outline-dark">𝓁𝒾𝓈𝓉 𝑜𝒻 𝓅𝓇𝑜𝒿𝑒𝒸𝓉𝓈</button>
+    <% if( title === "Project Page"){ %> <%- include('_issue_form'); %> <%
+    }else{ %> <%- include('_project_form'); %> <% } %>
+  </div>
+</nav>
