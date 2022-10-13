@@ -27,4 +27,4 @@ https://github.com/pintu544/Issue-Tracker
 
 
 # Hosted URL
-
+https://issue-tracker-nodejs-ejs.herokuapp.com/
